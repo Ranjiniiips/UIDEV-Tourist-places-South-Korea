@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Places in South Korea</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Explore South Korea</h1>
+            <p>Discover the most beautiful tourist destinations in South Korea</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#seoul">Seoul</a></li>
+                <li><a href="#busan">Busan</a></li>
+                <li><a href="#jeju">Jeju Island</a></li>
+                <li><a href="#gyeongju">Gyeongju</a></li>
+                <li><a href="#dmz">DMZ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="seoul" class="destination">
+            <div class="destination-image">
+                <img src="https://images.unsplash.com/photo-1538485399081-7c897c5b96a6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Seoul">
+            </div>
+            <div class="destination-info">
+                <h2>Seoul</h2>
+                <p>The vibrant capital of South Korea, Seoul is a mix of modern skyscrapers, pop culture, and historic temples. Must-visit places include Gyeongbokgung Palace, N Seoul Tower, and Myeongdong shopping district.</p>
+                <button class="btn-more" data-destination="seoul">Learn More</button>
+            </div>
+        </section>
+
+        <section id="busan" class="destination">
+            <div class="destination-image">
+                <img src="https://images.unsplash.com/photo-1575425186775-b8de9a427e67?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Busan">
+            </div>
+            <div class="destination-info">
+                <h2>Busan</h2>
+                <p>South Korea's second-largest city is famous for its beaches, mountains, and temples. Don't miss Haeundae Beach, Gamcheon Culture Village, and the bustling Jagalchi Fish Market.</p>
+                <button class="btn-more" data-destination="busan">Learn More</button>
+            </div>
+        </section>
+
+        <section id="jeju" class="destination">
+            <div class="destination-image">
+                <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Jeju Island">
+            </div>
+            <div class="destination-info">
+                <h2>Jeju Island</h2>
+                <p>A volcanic island known for its natural wonders, Jeju features Hallasan Mountain, Manjanggul Lava Tube, and beautiful waterfalls. It's a popular honeymoon destination.</p>
+                <button class="btn-more" data-destination="jeju">Learn More</button>
+            </div>
+        </section>
+
+        <section id="gyeongju" class="destination">
+            <div class="destination-image">
+                <img src="https://images.unsplash.com/photo-1573806719974-9d3b2371c790?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Gyeongju">
+            </div>
+            <div class="destination-info">
+                <h2>Gyeongju</h2>
+                <p>Known as "the museum without walls," this ancient capital of the Silla Kingdom is filled with historical treasures like Bulguksa Temple and the Cheomseongdae Observatory.</p>
+                <button class="btn-more" data-destination="gyeongju">Learn More</button>
+            </div>
+        </section>
+
+        <section id="dmz" class="destination">
+            <div class="destination-image">
+                <img src="https://images.unsplash.com/photo-1566438480901-83f1398e1d6a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="DMZ">
+            </div>
+            <div class="destination-info">
+                <h2>Korean DMZ</h2>
+                <p>The Demilitarized Zone between North and South Korea offers a unique glimpse into the divided Korean peninsula. Key sites include the Joint Security Area (JSA) and the Third Infiltration Tunnel.</p>
+                <button class="btn-more" data-destination="dmz">Learn More</button>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modal-title">Modal Title</h2>
+            <div id="modal-content">
+                <!-- Content will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Tourist Places in South Korea</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
